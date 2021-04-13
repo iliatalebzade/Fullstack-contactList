@@ -1,6 +1,6 @@
 # Fullstack-contactList
 
-About: A simple read-only contactlist which fetches Data from Node.js server and displays it using React.js
+A simple read-only contactlist which fetches Data from Node.js server and displays it using React.js
 
 Technologies used:
  
