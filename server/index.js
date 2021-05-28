@@ -1,14 +1,11 @@
 const express = require('express')
-const fs = require('fs')
-const users = require('./Model/users')
 
-const app = express()
+const usersRoutes = require('./routes/users')
 
+const app = express();
 
-app.get('/users', (req, res) => {
-    res.send(users)
-})
+app.use(usersRoutes)
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => console.log(`server listening on port ${PORT}`))
+app.listen(PORT, () => console.log(`server listening on port ${PORT}`));
