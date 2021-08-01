@@ -1,0 +1,35 @@
+.contact {
+    background-color: #333;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact > div {
+    margin-top: 10px;
+}
+
+.contact > h4{
+    color: #eee;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact > div > button{
+    margin-right: 10px;
+    padding: 1px 10px;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    box-shadow: 0 0 9px #111;
+}
+
+.contact__viewBtn {
+    color: #333;
+    background-color: #3CEBAB;
+}
+
+.contact__deleteBtn {
+    color: #eee;
+    background-color: #6359E1;
+}
