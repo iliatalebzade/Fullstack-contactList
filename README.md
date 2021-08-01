@@ -1,16 +1,13 @@
 # Fullstack-contactList
 
-A simple read-only contactlist which fetches Data from Node.js server and displays it using React.js
+MERN stack contactList
 
 Technologies used:
- 
- ON BACK-END:
-  - Node.js
-  - Express.js
-  - Nodemon
-  
- ON FRONT-END:
-  - React.js
-  - Axios.js
+ -React.js
+ -Redux.js
+ -Node.js
+ -Express.js
+ -MongoDB (Atlas)
+ --and some other technologies...
   
  HOPE YOU ENJOY IT :)))
